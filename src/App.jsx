@@ -263,10 +263,10 @@ function Hero() {
               Ver Experiência
             </a>
             <div className="flex gap-2 ml-2">
-              <a href="https://www.linkedin.com/in/martino-cardoso" target="_blank" rel="noreferrer" className="p-2 text-text-muted hover:text-primary transition-colors">
+              <a href="#" target="_blank" rel="noreferrer" className="p-2 text-text-muted hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="https://github.com/" target="_blank" rel="noreferrer" className="p-2 text-text-muted hover:text-primary transition-colors">
+              <a href="https://github.com/mart3ee" target="_blank" rel="noreferrer" className="p-2 text-text-muted hover:text-primary transition-colors">
                 <Github className="h-5 w-5" />
               </a>
             </div>
@@ -563,11 +563,11 @@ function Contact() {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="mailto:martinobritto0@gmail.com" className="btn-primary w-full sm:w-auto text-base px-8 py-3">
+              <a href="mailto:martinocardoso.dev@gmail.com " className="btn-primary w-full sm:w-auto text-base px-8 py-3">
                 <Mail className="h-5 w-5" />
-                martinobritto0@gmail.com
+                martinocardoso.dev@gmail.com 
               </a>
-              <a href="https://www.linkedin.com/in/martino-cardoso" target="_blank" rel="noreferrer" className="btn-outline w-full sm:w-auto text-base px-8 py-3 bg-transparent">
+              <a href="#" target="_blank" rel="noreferrer" className="btn-outline w-full sm:w-auto text-base px-8 py-3 bg-transparent">
                 <Linkedin className="h-5 w-5" />
                 LinkedIn
               </a>
