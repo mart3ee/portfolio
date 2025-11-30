@@ -215,7 +215,7 @@ function Navbar() {
 
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-20 pb-28 md:pb-32 overflow-hidden">
       <div className="absolute inset-0 bg-bg-alt">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-bg-surface via-bg-alt to-bg-alt opacity-40"></div>
         <div className="absolute inset-0 mask-hero-left opacity-70">
@@ -614,9 +614,13 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
+        <div className="divider-alt-to-main" />
         <About />
+        <div className="divider-main-to-alt" />
         <Skills />
+        <div className="divider-alt-to-main" />
         <Timeline />
+        <div className="divider-main-to-alt" />
         <Contact />
       </main>
     </div>

@@ -55,4 +55,10 @@
     -webkit-mask-image: radial-gradient(140% 140% at 0% 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 60%);
     mask-image: radial-gradient(140% 140% at 0% 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 60%);
   }
+  .divider-alt-to-main { 
+    @apply h-12 sm:h-16 bg-gradient-to-b from-bg-alt to-bg-main; 
+  }
+  .divider-main-to-alt { 
+    @apply h-12 sm:h-16 bg-gradient-to-b from-bg-main to-bg-alt; 
+  }
 }
