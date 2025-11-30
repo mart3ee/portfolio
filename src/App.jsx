@@ -238,12 +238,12 @@ function Hero() {
             Online
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-text-main mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight text-text-main mb-5 sm:mb-6 leading-snug md:leading-tight">
             Infraestrutura Inteligente <br />
             <span className="gradient-text">Automação & NOC</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-text-muted mb-8 max-w-2xl leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-text-muted mb-6 sm:mb-8 max-w-2xl leading-relaxed">
             Especialista em garantir que sua rede nunca pare. Transformo infraestrutura complexa em sistemas confiáveis através de monitoramento inteligente e automação.
           </p>
           
